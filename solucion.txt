@@ -1,0 +1,16 @@
+---Del sgte código:
+var loader:Loader = new Loader();
+loader.load(new URLRequest(url));
+	Si quiero agregar eventos de Carga Completa, ¿cuál es la correcta?
+1)loader.contentLoaderInfo.addEventListener(Event.COMPLETE,onComplete);
+2)loader.addEventListener(Event.COMPLETE,onComplete);
+3)loader.add(onComplete);
+
+RPTA:1 
+loader.contentLoaderInfo.addEventListener(Event.COMPLETE,onComplete);
+
+
+
+---Explicar diferencia entre Movieclip y Sprite
+movie clip consume mas
+sprite idk

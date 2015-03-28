@@ -13,4 +13,4 @@ loader.contentLoaderInfo.addEventListener(Event.COMPLETE,onComplete);
 
 ---Explicar diferencia entre Movieclip y Sprite
 movie clip consume mas
-sprite idk
+sprite idk.
